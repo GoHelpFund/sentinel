@@ -1,5 +1,6 @@
 # basic settings
 txindex=1
+logtimestamps=1
 testnet=1 # TESTNET
 logtimestamps=1
 

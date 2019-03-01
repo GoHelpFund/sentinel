@@ -34,7 +34,7 @@ class HelpConfig():
         creds = {key: value for (key, value) in match}
 
         # standard Help defaults...
-        default_port = 7777 if (network == 'mainnet') else 17777
+        default_port = 7778 if (network == 'mainnet') else 17778
 
         # use default port for network if not specified in help.conf
         if not ('port' in creds):
